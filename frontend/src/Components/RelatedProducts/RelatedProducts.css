@@ -1,0 +1,27 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 200px;
+    padding: 30px;
+}
+.products::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.title hr{
+    width: 30%;
+    height: 6px;
+    background: black;
+}
+.products{
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    overflow: scroll;
+}
