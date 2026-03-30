@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
+    width: 100vw;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 15px;
+}
+.navbar ul{
+    display: flex;
+    gap: 50px;
+}
+.navbar ul hr{
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: red;
+    border: none;
+    margin: auto;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+}
+.navbar ul li:hover{
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-login-cart button{
+    padding: 8px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: 0.1s;
+}
+.nav-login-cart button:hover{
+    background-color: #ff4141;
+    color: white;
+    border: 1px solid transparent(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+.nav-login-cart img{
+    cursor: pointer;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -25px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
